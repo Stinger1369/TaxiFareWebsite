@@ -74,6 +74,7 @@ params = dict(key='etrs',
 url = "https://taxifare.lewagon.ai/predict_fare"
 response = requests.get(url, params=params).json()
 
+st.write('https://taxifare.lewagon.ai/predict_fare')
 
 
 '''
